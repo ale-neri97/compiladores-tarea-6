@@ -1,0 +1,26 @@
+program doce
+
+  let a : int;
+  let b : real
+
+int cuadradoi(x: int)
+  let y : int
+begin
+   y := x * x;
+   return y
+end
+
+real cuadrador(y: real)
+begin
+   return y * y
+end
+
+begin
+   read a;
+   read b;
+
+   a = cuadradoi(a);
+   print a;
+   print cuadrador(b)
+
+end.

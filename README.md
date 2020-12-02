@@ -5,4 +5,9 @@
 - Alondra Michelle Ramírez Ocampo - A01421499
 
 ## Instrucciones
-~ Para correr el programa haga lo siguiente: 
+Para compilar y correr el programa, haga lo siguiente:
+- flex <LEX_FILE_NAME.lex>
+- bison -d <Y_FILE_NAME.y>
+- gcc lex.yy.c <TAB.C_FILE_NAME> -ll
+- ./a.out
+

@@ -1,0 +1,7 @@
+program dos
+  let x : int;
+  let y : real
+begin
+  x := 2;
+  y := 3.1
+end.

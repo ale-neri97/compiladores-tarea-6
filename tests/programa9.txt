@@ -1,0 +1,18 @@
+program doce
+
+  let a : int;
+
+int cuadrado(x: int)
+  let y : int
+begin
+   y := x * x;
+   return y
+end
+
+begin
+   read a;
+
+   a = cuadrado(a);
+   print a
+
+end.

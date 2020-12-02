@@ -1,0 +1,32 @@
+program nueve
+	let x,y, res, aux: int
+begin
+	read x;
+	read y;
+
+  res := 0;
+
+  if (x < 0) | (y < 0) then
+  begin
+    print x;
+    print y
+  end
+  else
+  begin
+    if x < y then
+    begin
+      aux := x; 
+      x := y; 
+      y := res; 
+      aux := 0
+    end
+    fi;
+    aux := x;
+    while aux > 0 do
+    begin
+      res := res + x; 
+      aux := aux - 1
+    end;
+    print res
+  end
+  end.

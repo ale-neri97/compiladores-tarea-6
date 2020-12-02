@@ -1,0 +1,19 @@
+program seis
+  let x,y,z : int;
+  let a : real;
+  let x : real
+begin
+  read x;
+  if x < 4 then
+    x := 4
+  fi;
+  print x;
+
+  read a;
+  if y > 3.5 then
+    b := 3.1
+  else
+    b := 1.3;
+  print a;
+  print b
+end.

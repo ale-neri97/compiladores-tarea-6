@@ -114,3 +114,12 @@ bool_factor:
     | T_FALSE;
 
 %%
+
+int yyerror(char * msg){
+    fprintf(stderr, "Error: %s\n", msg);
+}
+
+int main(){
+    yyparse();
+    return 0;
+}

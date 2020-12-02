@@ -1,0 +1,10 @@
+program ocho
+  let x,y : int
+begin
+  read x;
+  read y;
+  if x < y then
+    print x
+  else
+    print y
+end.
