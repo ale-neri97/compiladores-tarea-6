@@ -64,7 +64,7 @@ decl_lst: decl T_SEMICOLON decl_lst | decl;
 
 decl: T_LET id_lst T_COLON tipo;
 
-id_lst: T_ID COMMA_TOKEN id_lst | T_ID ;
+id_lst: T_ID T_COMMA id_lst | T_ID ;
 
 tipo: T_NUMI | T_NUMR | T_BOOL ;
 
